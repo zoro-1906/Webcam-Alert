@@ -11,7 +11,7 @@ Efficient Resource Management: Automatic folder cleanup ensures the system does 
 
 How users can get started with the project:
 1. Clone the repository:
-git clone https://github.com/yourusername/motion-detection-email-notifier.git
+https://github.com/zoro-1906/Webcam_Alert.git
 cd motion-detection-email-notifier
 
 3. Install the necessary dependencies:
