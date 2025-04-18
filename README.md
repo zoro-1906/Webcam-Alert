@@ -1,15 +1,15 @@
 # Project Name : MotionAlert
 
-What the project does:
+## What the project does:
 This project captures video through a webcam, detects motion, and saves snapshots of detected objects. When a significant movement is identified, the system captures an image, sends an email with the image attached, and periodically cleans up old images from the folder. The project uses OpenCV for video processing and multithreading to handle email sending and folder cleanup in parallel.
 
-Why the project is useful:
+## Why the project is useful:
 Motion Detection: Ideal for security applications, this system detects motion in real-time using a webcam feed and highlights moving objects.
 Automated Alerts: When motion is detected, it captures the image and sends an email alert with the object’s snapshot, notifying you immediately.
 Background Processing: By leveraging multithreading, the email notification and folder cleanup processes run without interrupting the motion detection flow.
 Efficient Resource Management: Automatic folder cleanup ensures the system does not get clogged with too many image files, keeping disk usage under control.
 
-How users can get started with the project:
+## How users can get started with the project:
 1. Clone the repository:
 https://github.com/zoro-1906/Webcam_Alert.git
 cd motion-detection-email-notifier
