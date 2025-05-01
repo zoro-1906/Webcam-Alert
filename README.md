@@ -1,7 +1,22 @@
 # Project Name : MotionAlert
 
 ## What the project does:
-This project captures video through a webcam, detects motion, and saves snapshots of detected objects. When a significant movement is identified, the system captures an image, sends an email with the image attached, and periodically cleans up old images from the folder. The project uses OpenCV for video processing and multithreading to handle email sending and folder cleanup in parallel.
+Captures video through a webcam using OpenCV.
+Detects motion in real-time from the video feed.
+
+Saves snapshots when significant movement is detected.
+
+Automatically sends an email with the captured image attached.
+
+Periodically deletes old images from the storage folder.
+
+Utilizes multithreading to handle:
+
+Email sending.
+
+Folder cleanup.
+
+Ensures smooth and non-blocking video processing.
 
 ## Why the project is useful:
 Motion Detection: Ideal for security applications, this system detects motion in real-time using a webcam feed and highlights moving objects.
