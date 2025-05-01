@@ -2,6 +2,7 @@
 
 ## What the project does:
 Captures video through a webcam using OpenCV.
+
 Detects motion in real-time from the video feed.
 
 Saves snapshots when significant movement is detected.
@@ -19,10 +20,13 @@ Folder cleanup.
 Ensures smooth and non-blocking video processing.
 
 ## Why the project is useful:
-Motion Detection: Ideal for security applications, this system detects motion in real-time using a webcam feed and highlights moving objects.
-Automated Alerts: When motion is detected, it captures the image and sends an email alert with the object’s snapshot, notifying you immediately.
-Background Processing: By leveraging multithreading, the email notification and folder cleanup processes run without interrupting the motion detection flow.
-Efficient Resource Management: Automatic folder cleanup ensures the system does not get clogged with too many image files, keeping disk usage under control.
+Motion Detection: Detects motion in real-time using a webcam feed and highlights moving objects — ideal for security applications.
+
+Automated Alerts: Captures an image upon detecting motion and sends an email alert with the snapshot to notify the user immediately.
+
+Background Processing: Utilizes multithreading to handle email notifications and folder cleanup without interrupting motion detection.
+
+Efficient Resource Management: Automatically cleans up old image files to prevent disk space issues and maintain smooth system performance.
 
 ## How users can get started with the project:
 1. Clone the repository:
