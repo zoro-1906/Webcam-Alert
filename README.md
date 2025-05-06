@@ -3,19 +3,19 @@
 ## What the project does:
 - Captures video through a webcam using OpenCV.
 
-Detects motion in real-time from the video feed.
+- Detects motion in real-time from the video feed.
 
-Saves snapshots when significant movement is detected.
+- Saves snapshots when significant movement is detected.
 
-Automatically sends an email with the captured image attached.
+- Automatically sends an email with the captured image attached.
 
-Periodically deletes old images from the storage folder.
+- Periodically deletes old images from the storage folder.
 
-Utilizes multithreading to handle:
+- Utilizes multithreading to handle:
 
-Email sending.
+- Email sending.
 
-Folder cleanup.
+- Folder cleanup.
 
 Ensures smooth and non-blocking video processing.
 
