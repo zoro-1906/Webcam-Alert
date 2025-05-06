@@ -1,7 +1,7 @@
 # Project Name : MotionAlert
 
 ## What the project does:
-Captures video through a webcam using OpenCV.
+- Captures video through a webcam using OpenCV.
 
 Detects motion in real-time from the video feed.
 
