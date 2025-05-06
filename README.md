@@ -17,7 +17,7 @@
 
 - Folder cleanup.
 
-Ensures smooth and non-blocking video processing.
+- Ensures smooth and non-blocking video processing.
 
 ## Why the project is useful:
 Motion Detection: Detects motion in real-time using a webcam feed and highlights moving objects — ideal for security applications.
