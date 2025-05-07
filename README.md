@@ -20,9 +20,9 @@
 - Ensures smooth and non-blocking video processing.
 
 ## Why the project is useful:
-Motion Detection: Detects motion in real-time using a webcam feed and highlights moving objects — ideal for security applications.
+- Motion Detection: Detects motion in real-time using a webcam feed and highlights moving objects — ideal for security applications.
 
-Automated Alerts: Captures an image upon detecting motion and sends an email alert with the snapshot to notify the user immediately.
+- Automated Alerts: Captures an image upon detecting motion and sends an email alert with the snapshot to notify the user immediately.
 
 Background Processing: Utilizes multithreading to handle email notifications and folder cleanup without interrupting motion detection.
 
