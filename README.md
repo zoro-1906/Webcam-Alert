@@ -24,9 +24,9 @@
 
 - Automated Alerts: Captures an image upon detecting motion and sends an email alert with the snapshot to notify the user immediately.
 
-Background Processing: Utilizes multithreading to handle email notifications and folder cleanup without interrupting motion detection.
+- Background Processing: Utilizes multithreading to handle email notifications and folder cleanup without interrupting motion detection.
 
-Efficient Resource Management: Automatically cleans up old image files to prevent disk space issues and maintain smooth system performance.
+- Efficient Resource Management: Automatically cleans up old image files to prevent disk space issues and maintain smooth system performance.
 
 ## How users can get started with the project:
 1. Clone the repository:
